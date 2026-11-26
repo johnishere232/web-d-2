@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ocean World</title>
+<style>
+body {
+background: linear-gradient(blue, cyan);
+color: white;
+text-align: center;
+font-family: Arial;
+}
+h1 { color: lightcyan; }
+button {
+padding: 15px;
+background: cyan;
+border-radius: 15px;
+}
+</style>
+</head>
+<body>
+<h1>🌊 Ocean World 🌊</h1>
+<h2>Welcome Underwater!</h2>
+<p>🐬 Dolphins</p>
+<p>🦈 Sharks</p>
+<p>🐙 Octopuses</p>
+<p>🐢 Sea Turtles</p>
+
+<h2>💎 Treasure Hunt</h2>
+<p id="result">Find the treasure!</p>
+
+<button onclick="treasure()">
+Explore!
+</button>
+
+<script>
+function treasure() {
+let result = document.getElementById("result");
+result.innerHTML = "🎉 You found ocean treasure!";
+}
+</script>
+</body>
+</html>
